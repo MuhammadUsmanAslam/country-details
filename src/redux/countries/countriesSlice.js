@@ -25,7 +25,6 @@ const countriesSlice = createSlice(
         isLoading: true,
       })).addCase(fetchCountries.fulfilled, (state, action) => {
         const loadedCountries = action.payload;
-        console.log(loadedCountries[0]);
         const refactoredCountries = [];
         loadedCountries.forEach((country, index) => {
           refactoredCountries.push({

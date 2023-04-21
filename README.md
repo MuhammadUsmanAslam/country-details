@@ -91,7 +91,7 @@ git clone https://github.com/MuhammadUsmanAslam/country-details.git
 
 ### Install
 
-Install this project with command: 
+Install project's dependencies if you're running it first time after cloning with command: 
 ```bash
 npm i
 ```

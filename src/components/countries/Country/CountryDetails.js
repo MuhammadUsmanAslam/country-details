@@ -8,12 +8,11 @@ function CountryDetails() {
   const navigate = useNavigate();
 
   const countries = useSelector((state) => state.countries);
-  console.log(countries);
   useEffect(() => {
     if (!countries.countries.length) {
       navigate('/');
     }
-  }, []);
+  });
 
   const { name } = useParams();
 
