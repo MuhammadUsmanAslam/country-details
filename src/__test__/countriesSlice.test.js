@@ -1,9 +1,7 @@
-const fetchCountries = () => {
-    return [{name:"Pakistan", continent:"asia"}];
-}
+const fetchCountries = () => [{ name: 'Pakistan', continent: 'asia' }];
 
 describe('fetchCountries', () => {
-    test('fetchCountries function', () => {
-      expect(fetchCountries()).toEqual([{name:"Pakistan", continent:"asia"}]);
-    });
+  test('fetchCountries function', () => {
+    expect(fetchCountries()).toEqual([{ name: 'Pakistan', continent: 'asia' }]);
   });
+});
