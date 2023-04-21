@@ -9,7 +9,7 @@ const initialState = {
 
 // Fetch all Countries
 export const fetchCountries = createAsyncThunk('countries/fetchCountries', async () => {
-  const result = await axios.get('all')
+  const result = await axios.get('https://restcountries.com/v3.1/all')
     .then((response) => response.data).catch((error) => error);
   return result;
 });

@@ -2,9 +2,6 @@
 	"name": "country-details",
 	"version": "0.1.0",
 	"private": true,
-	"proxy": "https://restcountries.com/v3.1/",
-	"homepage": "https://country-details-five.vercel.app/",
-	"target": "https://country-details-five.vercel.app/",
 	"changeOrigin": true,
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.5",
