@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://country-details-five.vercel.app/)
+- [Live Demo Link](https://frolicking-twilight-cc063e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
