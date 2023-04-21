@@ -53,7 +53,7 @@ header > button {
 }
 
 header > button:hover {
-  background-color: #bbbbbb;
+  background-color: #bbb;
 }
 
 header > button:active {
