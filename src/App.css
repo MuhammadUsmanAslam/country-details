@@ -1,0 +1,65 @@
+:root {
+  --dark-primary: #df4783;
+  --light-primary: #fd5294;
+  --text-light: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: var(--light-primary);
+  color: #000;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 375px;
+}
+
+header {
+  display: flex;
+  padding: 2em 0.5em;
+  width: 100%;
+  background-color: var(--dark-primary);
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > button {
+  border: none;
+  padding: 0.125em 0.25em;
+  cursor: pointer;
+  background-color: #fff;
+  color: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+header > button:hover {
+  background-color: #bbb;
+}
+
+header > button:active {
+  background-color: #a7a5a5;
+}
+
+header > img {
+  cursor: pointer;
+}
