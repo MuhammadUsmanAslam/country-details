@@ -59,7 +59,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **React Allication**
+- **Countries List**
+- **Country Details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)
+- [Live Demo Link](https://country-details-five.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
